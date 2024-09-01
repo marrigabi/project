@@ -66,7 +66,7 @@ Gherkin é uma linguagem de domínio específico para descrever cenários de tes
 - Sintaxe simples, próxima da linguagem natural.
   
 ## Sintaxe Básica do Gherkin
-![gherkin-syntax](caminho/para/imagem.jpg)
+![gherkin-syntax](gherkinsmall.png)
 
 
 - Feature: Descreve a funcionalidade.
