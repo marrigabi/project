@@ -61,13 +61,31 @@ Testes de Especificação são uma abordagem de teste que se concentra na verifi
 
 Gherkin é uma linguagem de domínio específico para descrever cenários de teste de uma forma que qualquer pessoa possa entender. Ele utiliza uma estrutura de frases chave para definir as condições do teste, como:
 
-- Given (Dado): Define o estado inicial do sistema antes da ação principal ocorrer. 
-- When (Quando): Representa a ação ou evento que está sendo testado. 
-- Then (Então): Define o resultado esperado após a ação. 
+- Linguagem de descrição de comportamento (BDD).
+- Facilita a comunicação entre equipe técnica e stakeholders.
+- Sintaxe simples, próxima da linguagem natural.
+  
+## Sintaxe Básica do Gherkin
+![gherkin-syntax](caminho/para/imagem.jpg)
 
----
 
-#### Exemplo 
+- Feature: Descreve a funcionalidade.
+- Scenario: Define uma situação específica.
+- Given, When, Then: Estrutura do cenário.
+- And, But: Conectores adicionais.
+
+#### Exemplo 1
+ ```gherkin
+Feature: Comer um hambúrguer
+  Scenario: Cliente faminto no restaurante
+    Given que o cliente está no restaurante
+    And o cliente está com muita fome
+    When o cliente pede um hambúrguer
+    Then o hambúrguer deve ser servido quente
+    And o cliente deve ficar satisfeito
+```
+
+#### Exemplo 2
  ```gherkin
    Funcionalidade: Buscar Contatos
      Cenário: Usuário busca um contato existente
